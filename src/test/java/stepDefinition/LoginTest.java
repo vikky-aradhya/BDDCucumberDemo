@@ -16,6 +16,7 @@ public class LoginTest extends BasePage {
     public void login_page_is_loaded() {
 
         boolean isVerifyLoginPageTitle = loginPageOperations.verifyLoginPageTitle();
+        System.out.println("Login Page");
         Assert.assertTrue(isVerifyLoginPageTitle);
     }
 
